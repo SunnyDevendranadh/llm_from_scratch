@@ -1,0 +1,22 @@
+checkpoints/
+__pycache__/
+*.pyc
+.venv/
+*.pt
+loss_log.csv
+
+# HuggingFace cache (from dataset streaming)
+hf_cache/
+.cache/huggingface/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

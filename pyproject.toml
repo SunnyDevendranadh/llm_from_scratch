@@ -1,0 +1,10 @@
+[project]
+name = "llm-from-scratch-project"
+version = "0.1.0"
+description = "From-scratch LLM training pipeline: TinyClaude2 (17M, local) and NanoCloud (138M, GPU streaming). RoPE + SwiGLU transformer with BPE tokenizer, KV-cache inference, and HuggingFace dataset streaming."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "datasets>=4.5.0",
+    "torch>=2.8.0",
+]
